@@ -1,5 +1,20 @@
 body {
-]display: flex;
+    background: rgb(250, 1, 237);
+    color: rgb(45, 45, 45);
+    padding: 10px;
+    font-family: arial;
+}
+#all-contents {
+  max-width: 800px;
+    margin: auto;
+}
+
+/* navigation menu */
+nav {
+    background: rgb(2, 227, 247);
+   margin: 0 auto;
+   margin-bottom:20px;
+    display: flex;
     padding: 10px;
 }
 h1 {
