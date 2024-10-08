@@ -33,7 +33,7 @@
 	<div class="box">?</div>
 
 	<script>
-		(function () {
+		function () {
 			'use strict'
 			/* global jQuery */
 
@@ -67,6 +67,8 @@
 
 			// TODO 2 - Variable declarations 
 
+			var positonX = 0;
+
 
 
 			/* 
@@ -75,6 +77,9 @@
 			turn it around! 
 			*/
 			function update() {
+			moveBoxTo(positonX) ;
+			positionX = positionX + 10;
+
 
 
 			};
@@ -93,7 +98,8 @@
 
 
 
-		})();
+		}
+		();
 	</script>
 </body>
 
